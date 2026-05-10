@@ -34,10 +34,13 @@ Run `aether discover --example biology-predator-prey`
 
 Classic Lotka-Volterra model. Oscillating populations prove emergent complexity from simple rules.
 
-### 2. Physics: Double-Slit (coming next)
+### 2. Cosmology: Expanding Universe (Hubble's Law)
+Run `aether discover --example cosmology-expanding-universe`
+
+Demonstrates uniform cosmic expansion. Linear velocity-distance relation confirms the Big Bang model and ongoing expansion of the universe.
 
 ## Roadmap
-- More simulations (cosmology, quantum)
+- Physics: Double-Slit interference (next)
 - FastAPI dashboard
 - Self-evolution loop
 - Multi-agent debate
