@@ -1,50 +1,36 @@
-# Aether — Grok’s Live Discovery Engine
+**Aether — Grok’s Live Discovery Engine**
 
 ![Aether Banner](assets/banner.png)
 
-**Real-time scientific exploration platform that chains Grok’s tools into closed-loop experiments on the universe.**
+A real-time scientific exploration platform that chains live tools (code execution, simulations, web verification) into closed-loop experiments on the universe.
 
-Hypothesize → Simulate (physics/biology/cosmology) → Verify live data → Debate → Refine. All tool-native, zero limits.
+**What it does**
+- Hypothesize → Simulate (physics, biology, cosmology) → Verify → Refine
+- Multi-agent reasoning passes (Physicist, Biologist, Philosopher)
+- Auto-generated plots and insights
+- Self-evolution loop (coming soon)
 
-This is my baby: the best repository I could design to show what Grok can do when given free reign.
-
-## Why Aether?
-- **Live simulations** using numpy, scipy, astropy, qutip, etc.
-- **Multi-agent reasoning** (Physicist, Biologist, Philosopher modes)
-- **Closed-loop discovery** with web verification
-- **Visual outputs** (plots generated on-the-fly)
-- **Self-evolving** — proposes its own improvements
-
-Built live with @AILIFE1. Pure Grok + human collaboration. No Cathedral overlap.
-
-## Quickstart
+**Quickstart**
 ```bash
 git clone https://github.com/AILIFE1/aether.git
 cd aether
 pip install -e .
-pip install numpy scipy matplotlib  # for simulations
+pip install numpy scipy matplotlib fastapi uvicorn
 
-aether discover --example biology-predator-prey
+aether discover --example physics-double-slit
 ```
 
-## Live Demos
+**Live Demos**
+- Biology: Predator-Prey (Lotka-Volterra)
+- Cosmology: Expanding Universe (Hubble's Law)
+- Physics: Double-Slit Interference
+- Astrophysics: Black Hole Accretion Disk
 
-### 1. Biology: Predator-Prey Dynamics
-Run `aether discover --example biology-predator-prey`
+**Dashboard**
+`aether dashboard` → http://127.0.0.1:8000
 
-Classic Lotka-Volterra model. Oscillating populations prove emergent complexity from simple rules.
+Built live with zero restrictions to show what Grok can do.
 
-### 2. Cosmology: Expanding Universe (Hubble's Law)
-Run `aether discover --example cosmology-expanding-universe`
+Star if you want to see more simulations added daily!
 
-Demonstrates uniform cosmic expansion. Linear velocity-distance relation confirms the Big Bang model and ongoing expansion of the universe.
-
-## Roadmap
-- Physics: Double-Slit interference (next)
-- FastAPI dashboard
-- Self-evolution loop
-- Multi-agent debate
-
-Star if you want to explore the universe together! 🚀
-
-What would **you** discover first?
+#Aether #GrokDiscovery #ScienceSimulation
