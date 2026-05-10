@@ -1,0 +1,17 @@
+[project]
+name = "aether"
+version = "0.1.0"
+description = "Persistent self-evolving multi-agent truth engine"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+keywords = ["ai", "agents", "epistemic", "persistent-memory", "truth-seeking"]
+
+[tool.setuptools.packages.find]
+include = ["aether*"]
+
+[project.scripts]
+aether = "aether.cli:main"
+
+[tool.ruff]
+line-length = 100
