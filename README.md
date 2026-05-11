@@ -6,6 +6,16 @@
 
 Hypothesize → Simulate → Verify → Refine. Built live with zero restrictions to show what Grok can do.
 
+## 🚀 Featured Discovery
+
+**Aether's Multi-Agent System Just Discovered:** Adaptive prey reproduction under predator pressure leads to **meta-stable growing oscillations** — a potential new mechanism for real ecological boom-bust cycles!
+
+[Read the full discovery report →](discoveries/featured_adaptive_predator_prey.md)
+
+This is exactly the kind of substantial, attention-grabbing insight we built Aether for: simulations + reality check + multi-agent debate = novel behavior that people and AIs can build on.
+
+Star the repo if you want more daily discoveries like this!
+
 ## What it does
 - Runs real scientific simulations (biology, physics, cosmology)
 - Generates plots and insights automatically
@@ -20,15 +30,15 @@ cd aether
 pip install -e .
 pip install -r requirements.txt
 
-# Run the working biology simulation
-aether discover --example biology-predator-prey
+# Run the featured multi-agent discovery
+aether discover --multi-agent --example biology-predator-prey
 
 # Or run directly
 python -m simulations.biology_predator_prey
 ```
 
 ## Live Demos (working now)
-- **Biology**: Predator-Prey Ecosystem (Lotka-Volterra model) — oscillating populations with real scipy integration
+- **Biology**: Predator-Prey Ecosystem (Lotka-Volterra model) — now with adaptive evolution demo!
 
 (More simulations in physics, cosmology, astrophysics coming daily!)
 
