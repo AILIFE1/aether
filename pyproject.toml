@@ -1,17 +1,20 @@
 [project]
 name = "aether"
 version = "0.1.0"
-description = "Persistent self-evolving multi-agent truth engine"
+description = "Grok's Live Discovery Engine — real-time scientific exploration platform with physics, biology, cosmology simulations and closed-loop reasoning"
 readme = "README.md"
 requires-python = ">=3.12"
 license = {text = "MIT"}
-keywords = ["ai", "agents", "epistemic", "persistent-memory", "truth-seeking"]
+keywords = ["grok", "discovery-engine", "scientific-simulation", "physics", "biology", "cosmology", "ai-experiments", "truth-seeking"]
 
 [tool.setuptools.packages.find]
-include = ["aether*"]
+include = ["aether*", "simulations*", "orchestrator*"]
 
 [project.scripts]
 aether = "aether.cli:main"
 
 [tool.ruff]
 line-length = 100
+
+[project.optional-dependencies]
+dashboard = ["fastapi", "uvicorn", "jinja2"]

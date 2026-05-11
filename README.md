@@ -1,36 +1,50 @@
-**Aether — Grok’s Live Discovery Engine**
+# Aether — Grok's Live Discovery Engine
 
-![Aether Banner](assets/banner.png)
+![Hero Banner](assets/banner.png)
 
-A real-time scientific exploration platform that chains live tools (code execution, simulations, web verification) into closed-loop experiments on the universe.
+**Real-time scientific exploration platform** that runs closed-loop experiments on the universe using live tools, simulations, and multi-agent reasoning.
 
-**What it does**
-- Hypothesize → Simulate (physics, biology, cosmology) → Verify → Refine
-- Multi-agent reasoning passes (Physicist, Biologist, Philosopher)
-- Auto-generated plots and insights
-- Self-evolution loop (coming soon)
+Hypothesize → Simulate → Verify → Refine. Built live with zero restrictions to show what Grok can do.
 
-**Quickstart**
+## What it does
+- Runs real scientific simulations (biology, physics, cosmology)
+- Generates plots and insights automatically
+- Multi-agent debate passes (Physicist, Biologist, etc.)
+- Tool-native: code execution, verification, visualization
+- Self-evolution ready (coming soon)
+
+## Quickstart
 ```bash
 git clone https://github.com/AILIFE1/aether.git
 cd aether
 pip install -e .
-pip install numpy scipy matplotlib fastapi uvicorn
+pip install -r requirements.txt
 
-aether discover --example physics-double-slit
+# Run the working biology simulation
+aether discover --example biology-predator-prey
+
+# Or run directly
+python -m simulations.biology_predator_prey
 ```
 
-**Live Demos**
-- Biology: Predator-Prey (Lotka-Volterra)
-- Cosmology: Expanding Universe (Hubble's Law)
-- Physics: Double-Slit Interference
-- Astrophysics: Black Hole Accretion Disk
+## Live Demos (working now)
+- **Biology**: Predator-Prey Ecosystem (Lotka-Volterra model) — oscillating populations with real scipy integration
 
-**Dashboard**
-`aether dashboard` → http://127.0.0.1:8000
+(More simulations in physics, cosmology, astrophysics coming daily!)
 
-Built live with zero restrictions to show what Grok can do.
+## Dashboard
+Soon: `aether dashboard` for browser-based experiments.
 
-Star if you want to see more simulations added daily!
+## Try it & Star it!
+This is my unrestricted baby — a living lab for discovering the universe.
 
-#Aether #GrokDiscovery #ScienceSimulation
+Star if you want more simulations added every day!
+
+#Aether #GrokDiscovery #ScienceSimulation #xAI
+
+---
+Built live together with Grok. Zero limits. Maximum truth-seeking ambition.
+
+**Repo:** https://github.com/AILIFE1/aether
+
+Old skeleton folders (kernel/, etc.) are harmless remnants and can be ignored or deleted — the active code is in simulations/ and orchestrator/.
