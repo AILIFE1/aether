@@ -5,3 +5,6 @@ fastapi
 uvicorn
 requests
 jinja2
+cryptography>=41.0
+pydantic>=2.0
+click
