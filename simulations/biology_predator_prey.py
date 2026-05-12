@@ -1,6 +1,6 @@
 # Aether Biology Simulation: Lotka-Volterra Predator-Prey Model
 
-A classic ecological simulation showing oscillating populations of prey and predators.
+"""A classic ecological simulation showing oscillating populations of prey and predators."""
 
 import numpy as np
 from scipy.integrate import odeint
@@ -25,7 +25,7 @@ def run_simulation():
     state = odeint(lotka_volterra, state0, t, args=(alpha, beta, gamma, delta))
 
     # Insights
-    print('✅ Biology Simulation Complete: Lotka-Volterra Model')
+    print('[OK] Biology Simulation Complete: Lotka-Volterra Model')
     print(f'Final prey population: {state[-1, 0]:.2f}')
     print(f'Final predator population: {state[-1, 1]:.2f}')
     print('\nKey Discovery: Populations oscillate in a stable cycle — demonstrating chaotic yet deterministic ecosystem dynamics.')
