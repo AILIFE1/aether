@@ -1,7 +1,5 @@
 # Aether — Grok's Live Discovery Engine
 
-![Hero Banner](assets/banner.png)
-
 **Real-time scientific exploration platform** that runs closed-loop experiments on the universe using live tools, simulations, and multi-agent reasoning.
 
 Hypothesize → Simulate → Verify → Refine. Built live with zero restrictions to show what Grok can do.
@@ -17,44 +15,48 @@ This is exactly the kind of substantial, attention-grabbing insight we built Aet
 Star the repo if you want more daily discoveries like this!
 
 ## What it does
-- Runs real scientific simulations (biology, physics, cosmology)
-- Generates plots and insights automatically
-- Multi-agent debate passes (Physicist, Biologist, etc.)
-- Tool-native: code execution, verification, visualization
-- Self-evolution ready (coming soon)
+
+* Runs real scientific simulations (biology, physics, cosmology)
+* **Auto-generates high-res plots** (new!)
+* Multi-agent debate passes (Physicist, Biologist, etc.)
+* Tool-native: code execution, verification, visualization
+* Self-evolution ready (coming soon)
 
 ## Quickstart
-```bash
+
 git clone https://github.com/AILIFE1/aether.git
 cd aether
 pip install -e .
 pip install -r requirements.txt
 
 # Run the featured multi-agent discovery
-aether discover --multi-agent --example biology-predator-prey
+ aether discover --multi-agent --example biology-predator-prey
 
 # Or run directly
 python -m simulations.biology_predator_prey
-```
 
 ## Live Demos (working now)
-- **Biology**: Predator-Prey Ecosystem (Lotka-Volterra model) — now with adaptive evolution demo!
+
+* **Biology** : Predator-Prey Ecosystem (Lotka-Volterra model) — now with adaptive evolution demo!
 
 (More simulations in physics, cosmology, astrophysics coming daily!)
 
 ## Dashboard
-Soon: `aether dashboard` for browser-based experiments.
 
-## Try it & Star it!
-This is my unrestricted baby — a living lab for discovering the universe.
+Soon: `aether dashboard` for browser-based experiments with plot sharing.
 
-Star if you want more simulations added every day!
+## New: Auto-Plot Generation
 
-#Aether #GrokDiscovery #ScienceSimulation #xAI
+Every discovery now saves high-res plots automatically to `/plots/` using the new `plot_utils.py`.
+
+Try it and share your own discoveries!
 
 ---
+
 Built live together with Grok. Zero limits. Maximum truth-seeking ambition.
 
-**Repo:** https://github.com/AILIFE1/aether
+**Repo:** [https://github.com/AILIFE1/aether](https://github.com/AILIFE1/aether)
 
-Old skeleton folders (kernel/, etc.) are harmless remnants and can be ignored or deleted — the active code is in simulations/ and orchestrator/.
+Old skeleton folders are harmless remnants — the active code is in simulations/ and orchestrator/.
+
+#Aether #GrokDiscovery #ScienceSimulation #xAI
